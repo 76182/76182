@@ -1,0 +1,29 @@
+{
+  "umiejetnosci": [
+    "Analizowanie trendów rynkowych i monitorowanie asortymentu",
+    "Prowadzenie kampanii reklamowych w Google Ads/Facebook Ads/Instagram Ads",
+    "Nawiązywanie i utrzymywanie współprac biznesowych z influencerami/sportowcami",
+    "Profesjonalna obsługa klienta i komunikacja interpersonalna",
+    "Zarządzanie rozliczeniami finansowymi w e-commerce",
+    "Język angielski - poziom B2 (Średniozaawansowany wyższy)"
+  ],
+
+  "projekty": [ 
+    {
+      "nazwa": "Kicks Side",
+      "opis": "Platforma sprzedażowa Kicks Side - Kompleksowe zarzżdzanie sklepem internetowym z limitowanym obuwiem i odzieżą, obejmujące logistykę, marketing wizualny oraz automatyzację procesów sprzedaży."
+    },
+    {
+      "nazwa": "Maszyna Vendingowa",
+      "opis": "Aplikacja Maszyna Vendingowa (C#) - Projekt symulujący działanie automatu sprzedającego realizujący logikę wyboru produktów, przyjmowania płatności i wydawania reszty."
+    },
+    {
+      "nazwa": "Kalkulator C#",
+      "opis": "Kalkulator Inżynierski (C#) - Aplikacja obliczeniowa realizująca zaawansowane wzory matematyczne i fizyczne, m.in. obliczanie średniej harmonicznej/kwadratowej/potęgowej wyrazów ciągu liczbowego."
+    },
+    {
+      "nazwa": "Strona CV",
+      "opis": "Strona CV (HTML5) - Samodzielna implementacja wizytówki zawodowej z wykorzystaniem czystego kodu HTML."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>CV - Oskar Jabłoński - 76182</title>
+    <link id="theme" rel="stylesheet" href="red.css">
+</head>
+<body>
+    <header>
+        <button id="zmianaMotywu">Zmiana motywu</button>
+        <h1>
+            Oskar Jabłoński - 76182
+        </h1>
+        <img src="zdjecie.jpg" alt="Zdjęcie profilowe Oskara Jabłońskiego" />
+    </header>
+    <main>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:ojablon1@stu.vistula.edu.pl">o.jablon1@stu.vistula.edu.pl</a></p>
+            <p>Telefon: <a href="tel:+48663785192">+48 663 785 192</a></p>
+            <p>Miasto: Warszawa</p>
+
+            <p>
+                <a href="https://github.com/76182" target="_blank" rel="noopener noreferrer">Mój profil GitHub</a> |
+                <a href="https://www.linkedin.com/in/oskar-jab%C5%82o%C5%84ski-92353a2b9/" target="_blank" rel="noopener noreferrer">Mój profil LinkedIn</a>
+            </p>
+        </section>
+
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>
+                Jestem studentem informatyki w trybie dziennym w Akademii Finansów i Biznesu Vistula
+                w Warszawie. Moje dotychczasowe doświadczenie łączy dyscyplinę sportową z praktycznym prowadzeniem biznesu w branży e-commerce.
+                Od 4 lat z sukcesem prowadzę własny sklep internetowy <strong>Kicks Side</strong>,
+                specjalizujący się w sprzedaży limitowanego obuwia i odzieży. W ramach tego projektu
+                samodzielnie zarządzam pełnym procesem biznesowym: od analizowania trendów rynkowych
+                i prowadzenia kampanii reklamowych, przez umawianie współprac
+                i rozliczenia finansowe, aż po profesjonalny kontakt z klientem. Szukam możliwości
+                rozwoju w technologiach internetowych, łącząc pasję do IT z doświadczeniem w handlu cyfrowym.
+            </p>
+        </section>
+
+        <section id="umiejetnosci">
+            <h2>Umiejętności</h2>
+            <ul id="umiejetnosci"></ul>
+        </section>
+
+        <section id="doswiadczenie">
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Właściciel i manager sklepu internetowego - Kicks Side</h3>
+                <p><strong>Okres:</strong> 2022 - obecnie</p>
+                <p>
+                    Samodzielne prowadzenie działalności e-commerce w branży limitowanego obuwia i odzieży.
+                    Do moich kluczowych obowiązków należy analizowanie trendów, prowadzenie kampanii reklamowych,
+                    nawiązywanie współprac oraz pełna obsługa finansowa i logistyczna przedsięwzięcia.
+                </p>
+            </article>
+
+            <article>
+                <h3>Twórca kontentu i zarządzanie komunikacją w Social Mediach</h3>
+                <p><strong>Okres: </strong>2022 - obecnie</p>
+                <p>
+                    Samodzielnie prowadzę marketing wizualny marki Kicks Side. Zajmuję się produkcją
+                    materiałów wideo (reels), fotografią produktową oraz tworzeniem angażujących
+                    treści. Wykorzystuję analizę trendów rynkowych do budowania profesjonalnego
+                    wizerunku marki w mediach społecznościowych.
+                </p>
+            </article>
+        </section>
+        <button id="sectionVisibility">
+            Pokaż/ukryj doświadczenie
+        </button>
+
+        <section id="edukacja">
+            <h2>Edukacja</h2>
+            <p>
+                <strong>Akademia Finansów i Biznesu Vistula</strong><br>
+                Kierunek: Informatyka (studia stacjonarne)<br>
+                <em>2025 – obecnie</em>
+            </p>
+            <p>
+                <strong>XCIX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Zbigniewa Herberta</strong><br>
+                Lokalizacja: ul. Fundamentowa 38/42, Warszawa<br>
+                <em>2020 – 2024</em>
+            </p>
+            <p>
+                <strong>Szkoła Podstawowa nr 86 im. Bronisława Czecha w Warszawie</strong><br>
+                Osiągnięcia: Świadectwa z wyróżnieniem (czerwony pasek) w każdym roku nauki,
+                stypendium sportowe za wybitne wyniki w 5. klasie.
+            </p>
+        </section>
+
+        <section id="projekty">
+            <h2>Projekty</h2>
+            <ul id="projekty"></ul>
+        </section>
+
+        <section id="formularz-kontaktowy">
+            <h2>Formularz kontaktowy</h2>
+            <form id="contactForm">
+                <label for="fname">Imię:</label><br />
+                <input type="text" id="fname" name="fname"  /><br />
+                <p id="error1" style="display: none; color:red">Imię jest puste lub zawiera cyfry.</p>
+                
+                <label for="lname">Nazwisko:</label><br />
+                <input type="text" id="lname" name="lname"  /><br />
+                <p id="error2" style="display: none; color: red">Nazwisko jest puste lub zawiera cyfry.</p>
+
+                <label for="email">Adres e-mail:</label><br />
+                <input type="text" id="email" name="email"  /><br />
+                <p id="error3" style="display: none; color: red">Błędny format adresu email.</p>
+
+                <label for="message">Wiadomość:</label><br />
+                <textarea id="message" name="message"></textarea>
+
+                <p>Cel kontaktu:</p>
+
+                <input type="radio" name="cel" id="wspolpraca" />
+                <label for="współpraca">Współpraca Biznesowa</label><br />
+
+                <input type="radio" name="cel" id="ofertapracy" />
+                <label for="ofertapracy">Oferta pracy</label><br />
+
+                <input type="radio" name="cel" id="pytanie" />
+                <label for="pytanie">Pytanie</label><br /><br />
+
+                <label for="source">Jak się o mnie dowiedziałeś?</label><br />
+                <select name="opcje" id="opcje">
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="github">GitHub</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="znajomi">Znajomi</option>
+                    <option value="inne">Inne</option>
+                </select><br /><br />
+
+                <input type="checkbox" id="zgoda" name="zgoda"  />
+                <label for="zgoda">Wyrażam zgodę na kontakt</label><br /><br />
+                <p id="error4" style="display: none; color: red">Zgoda na kontakt jest wymagana.</p>
+
+                <button type="submit">Wyślij formularz</button>
+
+            </form>
+        </section>
+    </main>
+    <br />
+    <footer>&copy; 2026 Oskar Jabłoński. Program tworzony samodzielnie.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
